@@ -6,8 +6,20 @@
 }
 
 .logo img {
-    border: 1px solid #ddd;
-    border-radius: 60%;
+    border-radius: 50%;
     padding: 5px;
-    width: 150px
+    width: 70px;
+    height: 70px;
+}
+.parent ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        display: flexbox;
+}
+.parent ul li {
+    display: inline;
+    text-align: left;
+    display: flexbox;
 }
